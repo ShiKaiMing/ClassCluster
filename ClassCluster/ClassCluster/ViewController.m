@@ -18,13 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     EOCEmployee*developer = [EOCEmployee employeeWithType:EOCEmployeeTypeDevlopers];
-    [developer doADayWork];
+    [developer doADaysWork];
     
     EOCEmployee*prducter = [EOCEmployee employeeWithType:EOCEmployeeTypeProducters];
-    [prducter doADayWork];
+    [prducter doADaysWork];
     
     EOCEmployee*tester = [EOCEmployee employeeWithType:EOCEmployeeTypeTesters];
-    [tester doADayWork];
+    [tester doADaysWork];
 }
 
 
